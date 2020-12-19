@@ -41,7 +41,7 @@ npm start
 #### Screenshot
 
 ![Screenshot of the Application](docs/pwa-budget-tracker.png?raw=true "Screenshot of the Application")
-### Link to the application running on Heroku: [(PWA Budget Tracker)](https://pwa-budget-traker.herokuapp.com/)
+### Link to the application running on Heroku: [(PWA) Budget Tracker](https://pwa-budget-traker.herokuapp.com/)
 
 
 ## License
