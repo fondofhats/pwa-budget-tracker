@@ -39,7 +39,13 @@ function saveRecord(record) {
   
     // access the object store for `new_transaction`
     const  budgetObjectStore = transaction.objectStore('new_transaction');
-  
+    
+    // alert user of offline transaction
+    if(Number(record.value)>0){
+        alert(`You have added an deposit of $${Math.abs(Number(record.value))}.`);
+    } else {
+        alert(`You have added a expence of $${Math.abs(Number(record.value))}.`);
+    }
     // add record to your store with add method
     budgetObjectStore.add(record);
 }
